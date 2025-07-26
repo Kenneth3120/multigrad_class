@@ -1,0 +1,304 @@
+[debug] [2025-07-26T08:25:27.266Z] ----------------------------------------------------------------------
+[debug] [2025-07-26T08:25:27.268Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kenne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-07-26T08:25:27.268Z] CLI Version:   14.11.1
+[debug] [2025-07-26T08:25:27.268Z] Platform:      win32
+[debug] [2025-07-26T08:25:27.269Z] Node Version:  v22.17.0
+[debug] [2025-07-26T08:25:27.269Z] Time:          Sat Jul 26 2025 13:55:27 GMT+0530 (India Standard Time)
+[debug] [2025-07-26T08:25:27.269Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-26T08:25:27.511Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-26T08:25:27.512Z] > authorizing via signed-in user (thefurrypets.help@gmail.com)
+[debug] [2025-07-26T08:25:27.772Z] java version "11.0.24" 2024-07-16 LTS
+
+[debug] [2025-07-26T08:25:27.772Z] Java(TM) SE Runtime Environment 18.9 (build 11.0.24+7-LTS-271)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.24+7-LTS-271, mixed mode)
+
+[debug] [2025-07-26T08:25:27.801Z] Parsed Java major version: 11
+[info] i  emulators: Starting emulators: functions, firestore, hosting, storage, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting, storage, extensions"}}
+[debug] [2025-07-26T08:25:27.803Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:27.803Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:27.804Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ekatra-ai-35d6e/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-07-26T08:25:27.804Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ekatra-ai-35d6e/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/ekatra-ai-35d6e
+[debug] [2025-07-26T08:25:29.531Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ekatra-ai-35d6e/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-07-26T08:25:29.531Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ekatra-ai-35d6e/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-07-26T08:25:29.535Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:29.535Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:29.535Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/ekatra-ai-35d6e [none]
+[debug] [2025-07-26T08:25:30.929Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/ekatra-ai-35d6e 200
+[debug] [2025-07-26T08:25:30.930Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/ekatra-ai-35d6e {"projectNumber":"263904598549","projectId":"ekatra-ai-35d6e","lifecycleState":"ACTIVE","name":"ekatra-ai","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-07-26T07:01:40.739210Z"}
+[debug] [2025-07-26T08:25:30.946Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.946Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.946Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.946Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.946Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.946Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-07-26T08:25:30.951Z] [hub] writing locator at C:\Users\kenne\AppData\Local\Temp\hub-ekatra-ai-35d6e.json
+[debug] [2025-07-26T08:25:30.957Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-07-26T08:25:30.962Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.962Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.962Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-07-26T08:25:30.962Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, database, pubsub, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, database, pubsub, dataconnect\u001b[22m"}}
+[debug] [2025-07-26T08:25:30.973Z] defaultcredentials: writing to file C:\Users\kenne\AppData\Roaming\firebase\thefurrypets_help_gmail.com_application_default_credentials.json
+[debug] [2025-07-26T08:25:30.978Z] Setting GAC to C:\Users\kenne\AppData\Roaming\firebase\thefurrypets_help_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\kenne\\AppData\\Roaming\\firebase\\thefurrypets_help_gmail.com_application_default_credentials.json"}}
+[debug] [2025-07-26T08:25:30.979Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:30.979Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:30.979Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/adminSdkConfig [none]
+[debug] [2025-07-26T08:25:32.714Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/adminSdkConfig 200
+[debug] [2025-07-26T08:25:32.714Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/adminSdkConfig {"projectId":"ekatra-ai-35d6e","storageBucket":"ekatra-ai-35d6e.firebasestorage.app"}
+[info] i  firestore: downloading cloud-firestore-emulator-v1.19.8.jar... {"metadata":{"emulator":{"name":"firestore"},"message":"downloading cloud-firestore-emulator-v1.19.8.jar..."}}
+[debug] [2025-07-26T08:25:32.729Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.19.8.jar 
+[debug] [2025-07-26T08:25:33.133Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.19.8.jar 200
+[debug] [2025-07-26T08:25:33.133Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.19.8.jar [stream]
+[debug] [2025-07-26T08:25:38.058Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-07-26T08:25:38.058Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-07-26T08:25:38.058Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\kenne\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","ekatra-ai-35d6e","--rules","D:\\Agentic AI Day\\multigrad_class\\ekatra-ui\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\kenne\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"ekatra-ai-35d6e\",\"--rules\",\"D:\\\\Agentic AI Day\\\\multigrad_class\\\\ekatra-ui\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  storage: downloading cloud-storage-rules-runtime-v1.1.3.jar... {"metadata":{"emulator":{"name":"storage"},"message":"downloading cloud-storage-rules-runtime-v1.1.3.jar..."}}
+[debug] [2025-07-26T08:25:40.741Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 
+[debug] [2025-07-26T08:25:41.092Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 200
+[debug] [2025-07-26T08:25:41.092Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar [stream]
+[debug] [2025-07-26T08:25:45.556Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-07-26T08:25:46.520Z] Temp file directory for storage emulator: C:\Users\kenne\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\kenne\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2025-07-26T08:25:46.532Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:46.532Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:46.533Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/sites 
+[debug] [2025-07-26T08:25:47.620Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/sites 200
+[debug] [2025-07-26T08:25:47.620Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/sites {"sites":[{"name":"projects/ekatra-ai-35d6e/sites/ekatra-ai-35d6e","defaultUrl":"https://ekatra-ai-35d6e.web.app","appId":"1:263904598549:web:ae6c6cc99534bc55934c1c","type":"DEFAULT_SITE"}]}
+[debug] [2025-07-26T08:25:47.620Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:47.620Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:47.620Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/webApps/1:263904598549:web:ae6c6cc99534bc55934c1c/config [none]
+[debug] [2025-07-26T08:25:48.746Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/webApps/1:263904598549:web:ae6c6cc99534bc55934c1c/config 200
+[debug] [2025-07-26T08:25:48.746Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e/webApps/1:263904598549:web:ae6c6cc99534bc55934c1c/config {"projectId":"ekatra-ai-35d6e","appId":"1:263904598549:web:ae6c6cc99534bc55934c1c","storageBucket":"ekatra-ai-35d6e.firebasestorage.app","apiKey":"AIzaSyBph9y5ieyTNDl2ygmTk_WSCAO8mlhvwng","authDomain":"ekatra-ai-35d6e.firebaseapp.com","messagingSenderId":"263904598549","measurementId":"G-YPKY7V45L6"}
+[debug] [2025-07-26T08:25:48.751Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:48.751Z] Checked if tokens are valid: true, expires at: 1753521327194
+[debug] [2025-07-26T08:25:48.751Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e [none]
+[debug] [2025-07-26T08:25:49.066Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e 200
+[debug] [2025-07-26T08:25:49.066Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ekatra-ai-35d6e {"projectId":"ekatra-ai-35d6e","projectNumber":"263904598549","displayName":"ekatra-ai","name":"projects/ekatra-ai-35d6e","resources":{"hostingSite":"ekatra-ai-35d6e"},"state":"ACTIVE","etag":"1_da2a5a48-c6bc-47c6-ab55-628a852fbf26"}
+[info] i  hosting[ekatra-ai-35d6e]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[ekatra-ai-35d6e]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.15.0.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.15.0.zip..."}}
+[debug] [2025-07-26T08:25:49.088Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip 
+[debug] [2025-07-26T08:25:49.335Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip 200
+[debug] [2025-07-26T08:25:49.336Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip [stream]
+[debug] [2025-07-26T08:25:49.406Z] Data is 3538469
+[debug] [2025-07-26T08:25:49.406Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.406Z] [unzip] Processing entry: client\
+[debug] [2025-07-26T08:25:49.406Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\
+[debug] [2025-07-26T08:25:49.407Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2025-07-26T08:25:49.407Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2025-07-26T08:25:49.407Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.408Z] [unzip] Writing file: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\favicon-16x16.png
+[debug] [2025-07-26T08:25:49.409Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2025-07-26T08:25:49.410Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2025-07-26T08:25:49.410Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.410Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\safari-pinned-tab.svg
+[debug] [2025-07-26T08:25:49.421Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2025-07-26T08:25:49.421Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2025-07-26T08:25:49.421Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.421Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\favicon.ico
+[debug] [2025-07-26T08:25:49.423Z] [unzip] Entry: client/index.html (compressed_size=1364 bytes, uncompressed_size=3071 bytes)
+[debug] [2025-07-26T08:25:49.423Z] [unzip] Processing entry: client\index.html
+[debug] [2025-07-26T08:25:49.423Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.424Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\index.html
+[debug] [2025-07-26T08:25:49.426Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2025-07-26T08:25:49.426Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2025-07-26T08:25:49.426Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.427Z] [unzip] Writing file: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\android-chrome-192x192.png
+[debug] [2025-07-26T08:25:49.427Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2025-07-26T08:25:49.427Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2025-07-26T08:25:49.427Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.428Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\apple-touch-icon.png
+[debug] [2025-07-26T08:25:49.429Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2025-07-26T08:25:49.429Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2025-07-26T08:25:49.429Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.429Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\android-chrome-512x512.png
+[debug] [2025-07-26T08:25:49.430Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2025-07-26T08:25:49.430Z] [unzip] Processing entry: client\manifest.json
+[debug] [2025-07-26T08:25:49.430Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.431Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\manifest.json
+[debug] [2025-07-26T08:25:49.432Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2025-07-26T08:25:49.432Z] [unzip] Processing entry: client\robots.txt
+[debug] [2025-07-26T08:25:49.432Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.432Z] [unzip] Writing file: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\robots.txt
+[debug] [2025-07-26T08:25:49.433Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2025-07-26T08:25:49.433Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2025-07-26T08:25:49.433Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.434Z] [unzip] Writing file: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\mstile-150x150.png
+[debug] [2025-07-26T08:25:49.434Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.434Z] [unzip] Processing entry: client\assets\
+[debug] [2025-07-26T08:25:49.434Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\
+[debug] [2025-07-26T08:25:49.435Z] [unzip] Entry: client/assets/index-BX-A56oj.js (compressed_size=582089 bytes, uncompressed_size=2092775 bytes)
+[debug] [2025-07-26T08:25:49.435Z] [unzip] Processing entry: client\assets\index-BX-A56oj.js
+[debug] [2025-07-26T08:25:49.435Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets
+[debug] [2025-07-26T08:25:49.435Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\index-BX-A56oj.js
+[debug] [2025-07-26T08:25:49.445Z] [unzip] Entry: client/assets/index-CjB9C900.css (compressed_size=35979 bytes, uncompressed_size=298654 bytes)
+[debug] [2025-07-26T08:25:49.445Z] [unzip] Processing entry: client\assets\index-CjB9C900.css
+[debug] [2025-07-26T08:25:49.445Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets
+[debug] [2025-07-26T08:25:49.445Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\index-CjB9C900.css
+[debug] [2025-07-26T08:25:49.447Z] [unzip] Entry: client/assets/index-BX-A56oj.js.map (compressed_size=2362482 bytes, uncompressed_size=10036679 bytes)
+[debug] [2025-07-26T08:25:49.447Z] [unzip] Processing entry: client\assets\index-BX-A56oj.js.map
+[debug] [2025-07-26T08:25:49.447Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets
+[debug] [2025-07-26T08:25:49.448Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\index-BX-A56oj.js.map
+[debug] [2025-07-26T08:25:49.499Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.499Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2025-07-26T08:25:49.499Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\extensions\
+[debug] [2025-07-26T08:25:49.499Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2025-07-26T08:25:49.499Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2025-07-26T08:25:49.499Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\extensions
+[debug] [2025-07-26T08:25:49.500Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\extensions\default-extension.png
+[debug] [2025-07-26T08:25:49.501Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.501Z] [unzip] Processing entry: client\assets\img\
+[debug] [2025-07-26T08:25:49.501Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\img\
+[debug] [2025-07-26T08:25:49.502Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2025-07-26T08:25:49.502Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2025-07-26T08:25:49.502Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\img
+[debug] [2025-07-26T08:25:49.502Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\img\database.png
+[debug] [2025-07-26T08:25:49.503Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.503Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2025-07-26T08:25:49.504Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\
+[debug] [2025-07-26T08:25:49.504Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2025-07-26T08:25:49.504Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2025-07-26T08:25:49.504Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.504Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2025-07-26T08:25:49.506Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2025-07-26T08:25:49.506Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2025-07-26T08:25:49.506Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.506Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2025-07-26T08:25:49.508Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2025-07-26T08:25:49.508Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2025-07-26T08:25:49.508Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.508Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2025-07-26T08:25:49.510Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2025-07-26T08:25:49.510Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2025-07-26T08:25:49.510Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.510Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2025-07-26T08:25:49.511Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2025-07-26T08:25:49.511Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2025-07-26T08:25:49.512Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.512Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2025-07-26T08:25:49.513Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2025-07-26T08:25:49.513Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2025-07-26T08:25:49.513Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.513Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_github.svg
+[debug] [2025-07-26T08:25:49.514Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2025-07-26T08:25:49.514Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2025-07-26T08:25:49.514Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.515Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2025-07-26T08:25:49.516Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2025-07-26T08:25:49.516Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2025-07-26T08:25:49.516Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.516Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2025-07-26T08:25:49.517Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2025-07-26T08:25:49.517Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2025-07-26T08:25:49.517Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.517Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2025-07-26T08:25:49.518Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2025-07-26T08:25:49.518Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2025-07-26T08:25:49.518Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.518Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2025-07-26T08:25:49.520Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2025-07-26T08:25:49.520Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2025-07-26T08:25:49.520Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.520Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_email.svg
+[debug] [2025-07-26T08:25:49.521Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2025-07-26T08:25:49.521Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2025-07-26T08:25:49.521Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.521Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_google.svg
+[debug] [2025-07-26T08:25:49.522Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2025-07-26T08:25:49.522Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2025-07-26T08:25:49.523Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons
+[debug] [2025-07-26T08:25:49.523Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2025-07-26T08:25:49.524Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2025-07-26T08:25:49.524Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2025-07-26T08:25:49.524Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.524Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\browserconfig.xml
+[debug] [2025-07-26T08:25:49.525Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2025-07-26T08:25:49.525Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2025-07-26T08:25:49.525Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client
+[debug] [2025-07-26T08:25:49.525Z] [unzip] Writing file: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\client\favicon-32x32.png
+[debug] [2025-07-26T08:25:49.526Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-07-26T08:25:49.526Z] [unzip] Processing entry: server\
+[debug] [2025-07-26T08:25:49.526Z] [unzip] mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\server\
+[debug] [2025-07-26T08:25:49.526Z] [unzip] Entry: server/server.mjs.map (compressed_size=217845 bytes, uncompressed_size=944978 bytes)
+[debug] [2025-07-26T08:25:49.526Z] [unzip] Processing entry: server\server.mjs.map
+[debug] [2025-07-26T08:25:49.526Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\server
+[debug] [2025-07-26T08:25:49.527Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\server\server.mjs.map
+[debug] [2025-07-26T08:25:49.531Z] [unzip] Entry: server/server.mjs (compressed_size=276407 bytes, uncompressed_size=933701 bytes)
+[debug] [2025-07-26T08:25:49.531Z] [unzip] Processing entry: server\server.mjs
+[debug] [2025-07-26T08:25:49.531Z] [unzip] else mkdir: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\server
+[debug] [2025-07-26T08:25:49.532Z] [unzip] deflating: C:\Users\kenne\.cache\firebase\emulators\ui-v1.15.0\server\server.mjs
+[debug] [2025-07-26T08:25:49.540Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "D:\Agentic AI Day\multigrad_class\ekatra-ui\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Agentic AI Day\\multigrad_class\\ekatra-ui\\functions\" for Cloud Functions..."}}
+[debug] [2025-07-26T08:25:49.547Z] Validating nodejs source
+[debug] [2025-07-26T08:25:50.510Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-07-26T08:25:50.510Z] Building nodejs source
+[debug] [2025-07-26T08:25:50.511Z] Failed to find version of module node: reached end of search path D:\Agentic AI Day\multigrad_class\ekatra-ui\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-07-26T08:25:50.513Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-07-26T08:25:50.518Z] Found firebase-functions binary at 'D:\Agentic AI Day\multigrad_class\ekatra-ui\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8617
+
+[debug] [2025-07-26T08:25:51.267Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-07-26T08:25:55.298Z] defaultcredentials: writing to file C:\Users\kenne\AppData\Roaming\firebase\thefurrypets_help_gmail.com_application_default_credentials.json
+[debug] [2025-07-26T08:25:55.299Z] Setting GAC to C:\Users\kenne\AppData\Roaming\firebase\thefurrypets_help_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\kenne\\AppData\\Roaming\\firebase\\thefurrypets_help_gmail.com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[debug] [2025-07-26T08:25:55.308Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore  │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Storage    │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage    │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  firestore: Change detected, updating rules... 
+[debug] [2025-07-26T10:20:59.178Z] >>> [apiv2][query] PUT http://127.0.0.1:8080/emulator/v1/projects/ekatra-ai-35d6e:securityRules [none]
+[debug] [2025-07-26T10:20:59.179Z] >>> [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/ekatra-ai-35d6e:securityRules {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\r\nservice cloud.firestore {\r\n  match /databases/{database}/documents {\r\n    // Only authenticated users\r\n    match /{document=**} {\r\n      allow read, write: if request.auth != null;\r\n    }\r\n\r\n    // Teachers\r\n    match /teachers/{userId} {\r\n      allow read, write: if request.auth.uid == userId;\r\n    }\r\n\r\n    // Classes under a teacher\r\n    match /teachers/{userId}/classes/{classId} {\r\n      allow read, write: if request.auth.uid == userId;\r\n    }\r\n\r\n    // Lessons, quizzes, schedules under teacher\r\n    match /teachers/{userId}/{collection}/{docId} {\r\n      allow read, write: if request.auth.uid == userId\r\n        && collection in ['lessons','quizzes','schedules','feedback'];\r\n    }\r\n  }\r\n}\r\n"}]}}
+[debug] [2025-07-26T10:21:01.027Z] <<< [apiv2][status] PUT http://127.0.0.1:8080/emulator/v1/projects/ekatra-ai-35d6e:securityRules 200
+[debug] [2025-07-26T10:21:01.027Z] <<< [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/ekatra-ai-35d6e:securityRules {}
+[info] +  firestore: Rules updated. 
