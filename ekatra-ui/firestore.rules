@@ -1,9 +1,25 @@
 rules_version = '2';
-
 service cloud.firestore {
   match /databases/{database}/documents {
+    // Only authenticated users
     match /{document=**} {
-      allow read, write: if false;
+      allow read, write: if request.auth != null;
+    }
+
+    // Teachers
+    match /teachers/{userId} {
+      allow read, write: if request.auth.uid == userId;
+    }
+
+    // Classes under a teacher
+    match /teachers/{userId}/classes/{classId} {
+      allow read, write: if request.auth.uid == userId;
+    }
+
+    // Lessons, quizzes, schedules under teacher
+    match /teachers/{userId}/{collection}/{docId} {
+      allow read, write: if request.auth.uid == userId
+        && collection in ['lessons','quizzes','schedules','feedback'];
     }
   }
 }
